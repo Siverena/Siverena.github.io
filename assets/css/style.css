@@ -1,0 +1,206 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.none {
+    display: none;
+}
+
+header {
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(30, 64, 162, 0.73);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+h1 {}
+
+.header-arrow {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+
+.header-arrow:hover {
+    transform: translate(-50%, -10px);
+    transition: all 0.2s ease-in;
+}
+
+
+/* Портфолио */
+
+.portfolio {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.section-header {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.portfolio-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+    width: 540px;
+    padding: 20px;
+    margin-bottom: 30px;
+    flex-basis: auto;
+    border-radius: 5px;
+}
+
+.img-wrap {
+    margin-bottom: 20px;
+    width: 500px;
+    height: 240px;
+    overflow: hidden;
+    display: block;
+}
+
+.card img {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.card:nth-last-child(2),
+.card:last-child {
+    margin-bottom: 0;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 13px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.card a {
+    border-bottom: dotted 1px;
+}
+
+.card a:hover {
+    color: #4366cc;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    background: #4366cc;
+    color: #FFF;
+    padding-top: 40px;
+    padding-bottom: 134px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer-copyright {
+    line-height: 1.3;
+    color: #9babda;
+    flex-basis: 350px;
+    flex-shrink: 0;
+}
+
+.footer-copyright-name {
+    font-weight: bold;
+    font-size: 28px;
+    /* or 36px */
+    margin-bottom: 15px;
+}
+
+.footer-copyright p {
+    margin: 0 0 15px 0;
+    font-weight: 600;
+}
+
+.footer-icons p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+    /* identical to box height, or 21px */
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.footer-icons-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 275px;
+    height: 30px;
+    /* justify-content: space-between; */
+    list-style: none;
+    align-items: center;
+}
+
+.footer-icons-list li {
+    margin-right: 15px;
+}
+
+.footer-button-vk {
+    padding: 15px 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    background: #4366cc;
+    color: #FFFFFF;
+    width: 272px;
+    height: 50px;
+    border: 3px solid #FFFFFF;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.footer-contacts p {
+    font-size: 16px;
+    line-height: 1.3;
+    color: #9babda;
+}
