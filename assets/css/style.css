@@ -26,7 +26,6 @@ header {
     align-items: center;
 }
 
-h1 {}
 
 .header-arrow {
     position: absolute;
@@ -52,7 +51,8 @@ h1 {}
 }
 
 .container {
-    width: 1110px;
+    max-width: 1110px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -70,21 +70,40 @@ h1 {}
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    align-items: stretch;
 }
 
 .card {
     background: #FFFFFF;
     box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
-    width: 540px;
+    width: 300px;
     padding: 20px;
+    padding-bottom: 80px;
+    margin: 0 30px;
     margin-bottom: 30px;
     flex-basis: auto;
     border-radius: 5px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
-
+.card-link{
+    padding: 10px;
+    background-color: #4366cc;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 40%;
+    text-align: center;
+    
+}
+.card-link:hover{
+    background-color: #4365cc6e;
+    color: #FFFFFF;
+}
 .img-wrap {
     margin-bottom: 20px;
-    width: 500px;
+    width: 100%;
     height: 240px;
     overflow: hidden;
     display: block;
@@ -96,10 +115,10 @@ h1 {}
     border-radius: 5px;
 }
 
-.card:nth-last-child(2),
+/* .card:nth-last-child(2),
 .card:last-child {
     margin-bottom: 0;
-}
+} */
 
 .card-title {
     font-weight: 600;
@@ -108,15 +127,18 @@ h1 {}
     margin-bottom: 13px;
 }
 
-.card p {
+.description{
     font-size: 16px;
     line-height: 1.6;
+
+}
+.link-wrap{
+    display: flex;
+    position: absolute;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    justify-content: space-between;
+    bottom: 20px;
+
 }
 
-.card a {
-    border-bottom: dotted 1px;
-}
-
-.card a:hover {
-    color: #4366cc;
-}
