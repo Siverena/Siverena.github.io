@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/main.min.css.map">
+    <title>Webim</title>
+</head>
+<body>
+    <header class="page-header">
+    <div class="container--big">
+        <div class="page-header__wrap">
+        
+                <button class="nav-btn nav-btn--open">
+                    <span class="open-image"></span>
+                </button>
+                
+         
+            <nav class="page-header__nav page-nav">
+                <button class="nav-btn nav-btn--close">
+                    <span class="close-image"></span>
+                </button>
+                <ul class="page-nav__list auth">
+                    <li class="auth__item page-nav__item"><a class="page-nav__link" href="#">Вход</a></li>
+                    <li class="auth__item page-nav__item"><a class="page-nav__link" href="#">Регистрация</a></li>
+                </ul>
+                <ul class="page-nav__list navigation">
+                    <li class="navigation__item page-nav__item"><a class="page-nav__link" href="#">Возможности</a></li>
+                    <li class="navigation__item page-nav__item"><a class="page-nav__link" href="#">Тарифы</a></li>
+                    <li class="navigation__item page-nav__item"><a class="page-nav__link" href="#">Партнерам</a></li>
+                    <li class="navigation__item page-nav__item"><a class="page-nav__link" href="#">Помощь</a></li>
+                </ul>
+            </nav>
+            <div class="page-header__logo-wrap">
+                <svg class="page-header__logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 113 27.38"><defs><style>.cls-1{fill:#393f6b;}.cls-2{fill:url(#linear-gradient);}</style><linearGradient id="linear-gradient" x1="-2" y1="-27.04" x2="20.4" y2="-27.04" gradientTransform="translate(2 38)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5bc2b2"/><stop offset="1" stop-color="#2b2f81"/></linearGradient></defs><g id="Слой_2" data-name="Слой 2"><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M51.22,11.24a6.78,6.78,0,0,1,7,7,9.1,9.1,0,0,1-.08,1,.7.7,0,0,1-.69.65H46.34a5.39,5.39,0,0,0,5.14,5,7.31,7.31,0,0,0,3.81-1.16c.54-.3.77-.5,1.07-.07l.66.88c.27.35.42.58-.16,1a9.52,9.52,0,0,1-5.64,1.77c-4.65,0-7.54-3.65-7.54-8.07S46.57,11.24,51.22,11.24Zm4.3,6.57a4.44,4.44,0,0,0-4.3-4.23,4.79,4.79,0,0,0-4.85,4.23Z"/><path class="cls-1" d="M62.4.83A.75.75,0,0,1,63.13.1h1.19a.75.75,0,0,1,.73.73V12.24a8.2,8.2,0,0,1,4.11-1c4.61,0,7.38,3.53,7.38,8s-3.08,8.11-7,8.11a6.85,6.85,0,0,1-4.72-2l-.23,1a.7.7,0,0,1-.66.61h-.8a.75.75,0,0,1-.73-.73ZM69.27,25c2.81,0,4.58-2.66,4.58-5.65s-1.69-5.5-5-5.5a8.17,8.17,0,0,0-3.72.93v7.68A5.18,5.18,0,0,0,69.27,25Z"/><path class="cls-1" d="M80.34,2.71a1.83,1.83,0,1,1,1.81,1.8A1.8,1.8,0,0,1,80.34,2.71Zm.54,9.64a.75.75,0,0,1,.73-.73H82.8a.76.76,0,0,1,.73.73V26.26a.75.75,0,0,1-.73.73H81.61a.75.75,0,0,1-.73-.73Z"/><path class="cls-1" d="M89,12.35a.75.75,0,0,1,.73-.73h.73a.57.57,0,0,1,.61.46l.35,1.2a7,7,0,0,1,5-2,5.39,5.39,0,0,1,4.92,2.5,9.33,9.33,0,0,1,5.72-2.5c4.46,0,6,2.92,6,6.91v8.11a.75.75,0,0,1-.73.73H111a.75.75,0,0,1-.73-.73V18.15c0-2.88-1.23-4.34-3.46-4.34A6.88,6.88,0,0,0,102.16,16a12.19,12.19,0,0,1,.2,2.19v8.11a.75.75,0,0,1-.73.73H100.4a.75.75,0,0,1-.73-.73V18.15c0-2.92-1.31-4.34-3.65-4.34A5.93,5.93,0,0,0,91.64,16V26.26a.75.75,0,0,1-.73.73H89.72a.75.75,0,0,1-.73-.73Z"/><path class="cls-2" d="M17.55,5.21c-.26.49-.5,1-.76,1.62s-.42,1.08-.6,1.6L15.69,10c-.32,1-.62,2-.95,2.79a19.91,19.91,0,0,1-1.13,2.48,7.34,7.34,0,0,1-1.35,1.85,2.15,2.15,0,0,1-1.48.63A3,3,0,0,1,9.06,17a10,10,0,0,1-1.55-1.67c-.45-.6-.91-1.28-1.37-2C5.38,12,4.62,10.53,3.88,8.94,2.49,6,1.58,3.38.77,1.21h0A.44.44,0,0,0,.53,1a.32.32,0,0,0-.14,0A.35.35,0,0,0,.11,1a.35.35,0,0,0-.11.3c0,.08.05.16.07.25C.65,3.83,1.44,6.75,2.6,9.94a45.89,45.89,0,0,0,2,4.83A25.47,25.47,0,0,0,6,17.19a12.35,12.35,0,0,0,1.81,2.27,7.48,7.48,0,0,0,1.2.93,4,4,0,0,0,1.47.55,3.35,3.35,0,0,0,1.63-.12A4.53,4.53,0,0,0,13.59,20a10.21,10.21,0,0,0,2.14-2.54,23.08,23.08,0,0,0,1.48-2.92c.39-.92.77-1.93,1.15-3.08l.5-1.42c.17-.46.36-.9.53-1.34.88-2.31,2.07-2.4,3-.83A5.06,5.06,0,0,0,17.55,5.21Z"/><path class="cls-1" d="M41,0a1,1,0,0,0-1,.73L40,1l-.49,2.4c-.15.79-.33,1.63-.52,2.47l-.09.42c-.43,2-.89,4-1.39,5.95s-1.1,4.11-1.7,5.93a27.73,27.73,0,0,1-1.07,2.78,9.13,9.13,0,0,1-.62,1.21c-.23.35-1,1.93-2.1.16-.19-.31-.42-.68-.67-1.16A56.82,56.82,0,0,1,29,15.35L28.44,14c-.52-1.44-1.06-2.92-1.65-4.4l-.18-.45c-.39-.93-.86-2-1.45-3.14a13.34,13.34,0,0,0-.95-1.56,6.45,6.45,0,0,0-1.38-1.49,3.42,3.42,0,0,0-1-.53,2.45,2.45,0,0,0-1.23-.05,3.05,3.05,0,0,0-1.11.5,5,5,0,0,0-.82.76,9,9,0,0,0-1.08,1.61A5.06,5.06,0,0,1,22.4,7.88l.06.09c.05.1.11.2.16.31C23,9,23.4,9.88,23.86,11c.55,1.37,1.07,2.78,1.61,4.26l.68,1.83c.35.93.76,2,1.21,3.14.36.86.84,2,1.45,3.13a17,17,0,0,0,.94,1.56,7.24,7.24,0,0,0,1.35,1.5,3.53,3.53,0,0,0,1,.56,2.49,2.49,0,0,0,1.2.14,2.73,2.73,0,0,0,1.13-.42,3.87,3.87,0,0,0,.85-.71,8.37,8.37,0,0,0,1.14-1.62,16.31,16.31,0,0,0,.78-1.62c.4-1,.76-2,1.14-3.23.67-2.2,1.15-4.36,1.58-6.36.39-1.81.75-3.77,1.16-6.18l.08-.5c.14-.84.27-1.66.4-2.52l.36-2.57L42,1.06V1A1,1,0,0,0,41,0Z"/></g></g></svg>
+            </div>
+        </div>
+        
+    </div>
+    </header>
+    <main>
+        <h1 class="page-header visually-hidden"></h1>
+        <section class="install">
+            <div class="container">
+                <h2 class="section-header install__header">УСТАНОВКА WEBIM</h2>
+                <p class="section-text install__text">Установка онлайн-консультанта Webim на ваш сайт не займет много времени. 
+                    Вы можете установить онлайн-консультант Webim на ваш сайт и протестировать 
+                    его в течение 7 дней бесплатно.    </p>
+                    <a class="site-btn site-btn--green" href="#free">Попробовать бесплатно</a>
+                    <a class="site-btn site-btn--transparent" href="#tarif">Тарифы</a>
+            </div>
+            
+        </section>
+        <section class="simple-install">
+            <div class="container">
+                <h2 class="section-header simple-install__header">ПРОСТАЯ УСТАНОВКА</h2>
+                <p class="section-text ">Установка онлайн-консультанта Webim не займет более 15 минут</p>
+                <ul class="simple-install__list">
+                    <li class="simple-install__item">
+                        <svg class="simple-install__icon">
+                            <use xlink:href="#simple-icon-1"></use>
+                          </svg>
+                        <a href="" class="simple-install__link">Регистрация</a>
+                    </li>
+                    <li class="simple-install__item">
+                        <svg class="simple-install__icon">
+                            <use xlink:href="#simple-icon-2"></use>
+                          </svg>
+                        <a href="" class="simple-install__link">Установка HTML&#8209;кода</a>
+                    </li>
+                </ul>
+
+            </div>
+            <svg width="0" height="0" class="hidden">
+                <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 72 72" id="simple-icon-1">
+                  <image width="72" height="72" xlink:href="data:img/png;base64,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"></image>
+                </symbol>
+                <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 72 72" id="simple-icon-2">
+                  <image width="72" height="72" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAFW0lEQVR4nO2cX2iXVRjHP9tcoNNGMmYXQjrndiUNDWUpFYS4UNtFVHQRuAvHCEKaUIYgBF7kRc4LMRWqG2/Mcv2xi1hQjf5cNKgLhQRBZQMJRJpsrVzLOPK8cnh43/ec877vj214Plc7z+89z3nO9/e+5zznvOe3us1b+/uBo0ATEZtpYNAINBXFyWS6PoqTS9MS9ekk8FtOjW1Ag/xtbsGxeQi6CE9YN8Ic8EOOjy6gOSlogYw4z+RU/tOqfMVx7ULC9OtxiWfKEfd3wNNJoX6RdHDeiAI5iAI5iAI5iAI5iAI50NP8NpnKs2i27Bsc1y4kVlixNDviXm4XtEANSoQ86gOuXWh4xx0fMQf6DpqWDPlBpt1en2qBxhbR8qFWxKVGCFEgB1EgB1EgB1EgB1EgB1EgB1EgB1EgB1EgB1EgBwtZILNg7AN6gbr5CqLWAg0C48A3QGtg3U+AD4HPgLfUZ63ic1zaqBm1EshsvJ0C3gNWA88C+wLqPwb0WOWn1Of7xOdqaeOU9ca3Umoh0DJgGOhX9jsBPnap8q8OX/3S5rKANryoWqAWufV3K/uPwFCAn15V/kKVh8SnzW5puyU87GyqFGitBN2t7OeB7cBtTz8r7A0r4A/gF3XNbfF5Xtm7JYa1BeJPpSqBNgI/Ax3Kfhx4CZgJ8GXGnoes8gXgv5TrZsT3cWXvkFg2BrSZSRUC7QC+B1Yp+wHgdTluEoIef77MqTsnbRxQ9lUS046ynSsr0B7pgP0uaRZ4FThSwF+DEuhvYMSj3hFpc9ayLZfY9hSI4z5lBDoIfAQ0WjYzNuwEzhT0+SSw0iqbQfcvz7pnpG17rGuUGA8WjKeQQOZbfh84rOw3ZHD1+cazeF7Z8x6vNEYkhhvqs8MSc3CuFCqQyTM+BQaU/XeZQfKO7/mg04NQgZAYuiUmmwGJPShXChEoyXF0jmKm1a3A9ZCGUzCzT6dlHku5E3y5LjHpXKk3NFfyFSgrxxmWfORWwY7Y6LtHJ4eh3JLYhlW9oFzJV6CRlBznBPBiYI6TR9nxJ40ZifGE+qzDd6z0EcichFinbNeANwvkOFmslKM3CeMVjGcJcxLrNWVf53PKw0egSclmbdZIIha6hZHFcyqWKu6ehFaJdY2yX5C+5eL7iL0AnFW2TZLSr6+gE67FaVHWS4ybVP2z0icnvgKZ7YVX5EcvNm3AT8CWEp1oVEuCKTlhUZYtElub8nNU+uK1/RIyzd8F9gNvyN8JZsr8NmUN5Ys5bvOwde3XwD8lxdklMdnT+V2Jfb+KP5cimfQx4GX1DSwFPgf2FuyMTdnxZ6/EstSy3ZGYj4U6K7oWOyc5hj3IGV+ngXcCN9nt8cdsa3xVMKY6afu06tekxHquiNMyi9VRyVYnlP0Q8EHK6bU0Nsj+c4IZM24WiGWJtHlI2SckxtECPu9RdrvjkmSmF5W9Tx4V12/RqkgOm6Ren7JflNguFfB5nyo2zCYkydPfUo9HrlR2eZHkOD3KPiox6bs7mKq2XLOe8yRXak+p8yiw2SpfSVmB59Euj6TOcdLGx8JUuWmfNVO0iUidyr5TDeYhd0+n+NRLoLQZthRVv/ZJcg39trMlZQ9puyqHjD8DKVsWgyk5Wmlq9WZ1SL5Je4/4as71Nx2/I9XYvmalrZD3bt74TMVF+Vg68hpwGTip/Lwt49Aj8lbi34B2TsrOYKdsZej3ZpVRS4GQwPX0m3C1xKl+M8a8Wy40P+L5IAdRIAdRIAdRIAdRIAdRIAdRIAdRIAdRIAdRIAd6qdFV0SuXxUyXHbsWqFkdoHzgqZffykfSufdP3gajSKlMA4P/A2zJ828whXf5AAAAAElFTkSuQmCC"></image>
+                </symbol>
+              </svg>
+        </section>
+        <section class="install-html">
+            <div class="container"> 
+                <h2 class="section-header install-html__header">УСТАНОВКА HTML&#8209;КОДА </h2>
+                <ul class="install-html__list">
+                    <li class="install-html__item">
+                        <a class="install-html__link" href="">Установка HTML-кода Webim для сайтов на Joomla</a><br>
+                        Документация по внедрению сервиса Webim на сайтах, построенных на базе <b>CMS Joomla</b> .
+                    </li>
+                    <li class="install-html__item">
+                        <a class="install-html__link" href="">Установка HTML-кода Webim для сайтов на Wordrpess</a><br>
+                        Документация по внедрению сервиса Webim на сайтах, построенных на базе <b>Wordrpess</b> .
+                    </li>
+                    <li class="install-html__item">
+                        <a class="install-html__link" href="">Установка HTML-кода Webim для сайтов на uCoz.ru</a><br>
+                        Документация по внедрению сервиса Webim на сайтах, построенных на базе <b>uCoz.ru</b> .
+                    </li>
+                    <li class="install-html__item">
+                        <a class="install-html__link" href="">Установка HTML-кода Webim для сайтов на webasyst.ru</a><br>
+                        Документация по внедрению сервиса Webim на сайтах, построенных на базе <b>webasyst.ru</b> .
+                    </li>
+                    <li class="install-html__item">
+                        <a class="install-html__link" href="">Установка HTML-кода Webim для любого сайта</a><br>
+                        Документация по внедрению сервиса Webim на сайтах с другой CMS или написанных вручную.
+                    </li>
+                </ul>
+                
+            </div>
+           
+        </section>
+        <section class="install-dashboard">
+            <div class="container">
+                <h2 class="section-header install-dashboard__header">УСТАНОВКА ПРИЛОЖЕНИЯ  ДЛЯ ОПЕРАТОРОВ WEBIM DASHBOARD</h2>
+                    <p class="section-text ">Чтобы быть на связи с клиентами всегда, установите приложение Webim Dashboard </p>
+                    <ul class="install-dashboard__list">
+                        <li class="install-dashboard__item">
+                            <a class="install-dashboard__link" href="">Установка приложения Webim Dashboard для iPhone</a><br>
+                            Документация по установке дополнительного программного обеспечения для операторов <span>сервиса Webim</span> , использующих iPhone/iPad/etc от компании Apple.
+                        </li>
+                        <li class="install-dashboard__item">
+                            <a class="install-dashboard__link" href="">Установка приложения Webim Dashboard для Android</a><br>
+                            Документация по установке дополнительного программного обеспечения для операторов 
+                            <span>сервиса Webim</span>, использующих платформу Google Android.
+                        </li>
+                        <li class="install-dashboard__item">
+                            <a class="install-dashboard__link" href="">Установка приложения Webim Dashboard для Ubuntu</a><br>
+                            Документация по установке дополнительного программного обеспечения для операторов 
+                            <span>сервиса Webim</span> , использующих платформу Ubuntu.
+                        </li>
+                        <li class="install-dashboard__item">
+                            <a class="install-dashboard__link" href="">Установка приложения Webim Dashboard</a><br>
+                            Документация по установке дополнительного программного обеспечения для операторов 
+                            <span>сервиса Webim</span> под ОС Microsoft Windows.
+                        </li>
+                        <li class="install-dashboard__item">
+                            <a class="install-dashboard__link" href="">Создание приложения Webim для Mac OS </a><br>
+                            Пошаговая инструкция создания приложения для оператора Webim для Mac OS с помощью Fluid.
+                        </li>
+                    </ul>
+            </div>
+
+        </section>
+        <section class="after-install">
+            <div class="container">
+                <h2 class="section-header after-install__header">ЧТО ВАС ЖДЕТ ПОСЛЕ УСТАНОВКИ </h2>
+                <p class="section-text">Идейные соображения высшего порядка, а также сложившаяся структура организации позволяет</p>
+                <ul class="after-install__list">
+                    <li class="after-install__item after-install__item--step-1">
+                        <div class="after-install__icon__wrap">
+                            <svg class="after-install__icon after-install__icon--1">
+                                <use xlink:href="#after-install-1"></use>
+                            </svg>
+                        </div>
+                        <div class="after-install__text"><span>Шаг 1. </span>Создание учетной записи компании и администратора</div>
+                        </li>
+                    <li class="after-install__item after-install__item--step-2">
+                        <div class="after-install__icon__wrap">
+                            <svg class="after-install__icon after-install__icon--2">
+                                <use xlink:href="#after-install-2"></use>
+                            </svg>
+                        </div>
+                        <div class="after-install__text"><span>Шаг 2. </span>Активация учетной записи</div>
+                        </li>
+                    <li class="after-install__item after-install__item--step-3">
+                        <div class="after-install__icon__wrap">
+                            <svg class="after-install__icon after-install__icon--3">
+                                <use xlink:href="#after-install-3"></use>
+                            </svg>
+                        </div>
+                        <div class="after-install__text"><span>Шаг 3. </span>Начальная настройка</div>
+                        </li>
+                    <li class="after-install__item after-install__item--step-4">
+                        <div class="after-install__icon__wrap">
+                            <svg class="after-install__icon after-install__icon--4">
+                                <use xlink:href="#after-install-4"></use>
+                              </svg>
+                        </div>
+                        <div class="after-install__text"><span>Шаг 4. </span>Установка кнопки Webim на сайт</div>
+                        </li>
+
+                    <li class="after-install__item after-install__item--step-5">
+                        <div class="after-install__icon__wrap">
+                            <svg class="after-install__icon after-install__icon--5">
+                                <use xlink:href="#after-install-5"></use>
+                              </svg>
+                        </div>
+                        <div class="after-install__text"><span>Шаг 5. </span>Регистрация оператора </div>
+                        </li>
+                    <li class="after-install__item after-install__item--step-6">
+                        <div class="after-install__icon__wrap">
+                            <svg class="after-install__icon after-install__icon--6">
+                                <use xlink:href="#after-install-6"></use>
+                              </svg>
+                        </div>
+                        <div class="after-install__text"><span>Шаг 6. </span>Тест сервиса</div>
+                        </li>
+                </ul>
+                <a class="site-btn site-btn--green" href="">Все Возможности WEBIM</a><a class="site-btn site-btn--blue" href="">Протестировать бесплатно</a>
+            </div>
+            <svg width="0" height="0" class="hidden">
+                <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 25" id="after-install-1">
+                  <path d="M22.273 12.5a6.251 6.251 0 1 0-6.364-6.25 6.324 6.324 0 0 0 6.364 6.25zM7.954 9.37V4.69H4.773v4.68H0v3.13h4.773v4.69h3.181V12.5h4.773V9.37H7.954zm14.319 6.25c-4.3 0-12.728 2.04-12.728 6.25V25H35v-3.13c0-4.21-8.432-6.25-12.727-6.25z" fill="#fff" fill-rule="evenodd"></path>
+                </symbol>
+                <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 23" id="after-install-2">
+                  <path d="M24.568 0l-14.5 14.27-5.636-5.55L0 13.09 10.068 23 29 4.36z" fill="#fff" fill-rule="evenodd"></path>
+                </symbol>
+                <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 26" id="after-install-3">
+                  <path d="M39.952 1.3l-.343 2.46c-.119.82-.249 1.61-.379 2.42l-.083.48c-.391 2.31-.735 4.19-1.1 5.91-.4 1.93-.866 3.99-1.5 6.1a32.966 32.966 0 0 1-1.091 3.1 16.725 16.725 0 0 1-.746 1.56 8.077 8.077 0 0 1-1.09 1.56 4.09 4.09 0 0 1-.806.68 2.709 2.709 0 0 1-1.079.4 2.28 2.28 0 0 1-1.149-.13 3.81 3.81 0 0 1-.936-.53 7.029 7.029 0 0 1-1.28-1.43 16.918 16.918 0 0 1-.9-1.49 31.669 31.669 0 0 1-1.374-3c-.427-1.05-.83-2.11-1.162-3-.213-.59-.426-1.17-.64-1.76-.521-1.42-1.019-2.77-1.54-4.08-.439-1.1-.841-1.92-1.185-2.63-.048-.1-.107-.19-.154-.29-.024-.03-.036-.06-.059-.09s-.048-.07-.071-.11c-.884-1.35-1.961-1.2-2.773.93-.166.42-.344.83-.51 1.29L17.52 11a44.366 44.366 0 0 1-1.1 2.96 19.428 19.428 0 0 1-1.41 2.79 9.42 9.42 0 0 1-2.039 2.43 4.734 4.734 0 0 1-1.41.78 3.275 3.275 0 0 1-1.552.12 3.911 3.911 0 0 1-1.4-.54 6.376 6.376 0 0 1-1.15-.89 11.647 11.647 0 0 1-1.73-2.17 23.969 23.969 0 0 1-1.3-2.32 45.636 45.636 0 0 1-1.943-4.63C1.386 6.47.614 3.67.069 1.5c-.024-.08-.036-.16-.06-.24a.328.328 0 0 1 .1-.28.338.338 0 0 1 .273-.1.5.5 0 0 1 .13.02.4.4 0 0 1 .225.25C1.507 3.24 2.372 5.7 3.7 8.56a53.034 53.034 0 0 0 2.156 4.17 23.2 23.2 0 0 0 1.3 1.95 9.572 9.572 0 0 0 1.481 1.61 2.79 2.79 0 0 0 1.636.75 2.035 2.035 0 0 0 1.41-.61 7.339 7.339 0 0 0 1.291-1.77 19.273 19.273 0 0 0 1.079-2.38c.308-.8.6-1.68.9-2.68l.486-1.53c.178-.5.368-1.02.581-1.53.244-.58.469-1.1.713-1.56 0-.01.006-.01.008-.02a.061.061 0 0 0 .007-.01 8.694 8.694 0 0 1 1.015-1.52 4.809 4.809 0 0 1 .782-.73 3.028 3.028 0 0 1 1.055-.49 2.385 2.385 0 0 1 1.185.05 3.559 3.559 0 0 1 .983.51 6.414 6.414 0 0 1 1.316 1.43 16.484 16.484 0 0 1 .9 1.5 37.232 37.232 0 0 1 1.375 3.02l.178.42c.569 1.42 1.078 2.84 1.576 4.22l.486 1.33a53.141 53.141 0 0 0 2.263 5.54c.237.45.45.81.64 1.11 1.078 1.7 1.789.19 2-.16a9.621 9.621 0 0 0 .592-1.15 25 25 0 0 0 1.019-2.66 77.115 77.115 0 0 0 1.624-5.68c.474-1.89.912-3.81 1.327-5.7l.083-.41c.178-.79.355-1.6.5-2.37l.462-2.29.047-.22a.94.94 0 0 1 1.849.24v.02z" fill="#fff" fill-rule="evenodd"></path>
+                </symbol>
+                <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 37" id="after-install-4">
+                  <path d="M30.451 15.46l-.613.01v9.44h.608A1.57 1.57 0 0 0 32 23.33v-6.28a1.57 1.57 0 0 0-1.549-1.59zm-28.815 0A1.655 1.655 0 0 0 0 17.13v6.11a1.658 1.658 0 0 0 1.64 1.67h.609v-9.44zm26.789 11.1V16.8a11.077 11.077 0 0 0-.2-2.1c-.044-.23-.095-.46-.153-.68v-1.76a12.03 12.03 0 1 0-24.055 0v1.18c-.055.17-.107.35-.154.53a11.021 11.021 0 0 0-.368 2.83v11.57a.818.818 0 0 0 .807.83h2.493a9.414 9.414 0 0 0 17.678 2.63 5.31 5.31 0 0 0 4.9-5.27h-.949zm-5.287.78a7.221 7.221 0 0 1-.287 2.03h-5.914a1.235 1.235 0 0 0 0 2.47h4.645a6.985 6.985 0 0 1-5.493 2.69 7.125 7.125 0 0 1-7.05-7.19v-7.85a14.579 14.579 0 0 0 3.643-3.23 17.664 17.664 0 0 0 10.456 3.75v7.33zm-5.363-21.4h-3.631a10.464 10.464 0 0 0-7.028 2.71 9.543 9.543 0 0 1 17.945.23 10.523 10.523 0 0 0-7.286-2.94zM13.58 21.81h-1.937a1.235 1.235 0 0 0 0 2.47h1.937a1.235 1.235 0 0 0 0-2.47zm6.777 0H18.42a1.235 1.235 0 0 0 0 2.47h1.937a1.235 1.235 0 0 0 0-2.47z" fill="#fff" fill-rule="evenodd"></path>
+                </symbol>
+                <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.969 35.97" id="after-install-5">
+                  <path d="M35.855 15.97a1.173 1.173 0 0 0-1.158-.88 3.977 3.977 0 0 1-2.72-6.92 1 1 0 0 0 .11-1.36 17.948 17.948 0 0 0-2.852-2.88 1 1 0 0 0-1.368.11 4.148 4.148 0 0 1-4.489 1.01 4 4 0 0 1-2.431-3.91 1 1 0 0 0-.883-1.05 18.281 18.281 0 0 0-4.05-.01 1.006 1.006 0 0 0-.891 1.03 4 4 0 0 1-2.465 3.84 4.173 4.173 0 0 1-4.455-1.01 1 1 0 0 0-1.359-.12A18.191 18.191 0 0 0 3.933 6.7a1 1 0 0 0 .107 1.37 3.985 3.985 0 0 1 1.006 4.49 4.157 4.157 0 0 1-3.916 2.43.982.982 0 0 0-1.04.89 17.987 17.987 0 0 0-.007 4.09 1.192 1.192 0 0 0 1.18.89 3.951 3.951 0 0 1 3.7 2.46 4 4 0 0 1-1.007 4.45 1 1 0 0 0-.109 1.36 18.246 18.246 0 0 0 2.847 2.88 1.007 1.007 0 0 0 1.37-.11 4.149 4.149 0 0 1 4.487-1.01 3.992 3.992 0 0 1 2.435 3.91 1 1 0 0 0 .883 1.05 17.963 17.963 0 0 0 2.074.12 18.693 18.693 0 0 0 1.976-.11 1 1 0 0 0 .891-1.03 4 4 0 0 1 2.463-3.84 4.157 4.157 0 0 1 4.457 1.02 1.014 1.014 0 0 0 1.359.11A18.024 18.024 0 0 0 32 29.24a1 1 0 0 0-.107-1.37 3.986 3.986 0 0 1-1.008-4.49 4.028 4.028 0 0 1 3.682-2.44l.222.01a1.007 1.007 0 0 0 1.054-.88 18.017 18.017 0 0 0 .012-4.1zM17.969 28.35a10.38 10.38 0 1 1 8.909-5.06l-4.544-4.54a6.384 6.384 0 0 0 .5-2.49 6.346 6.346 0 0 0-8.039-6.13.707.707 0 0 0-.5.5.715.715 0 0 0 .2.69s2.243 2.26 2.993 3.01a.454.454 0 0 1 .068.33l-.007.05a14.377 14.377 0 0 1-.342 2.2c-.016.01-.032.03-.048.04a.261.261 0 0 1-.05.05 13.917 13.917 0 0 1-2.23.35h-.037a.039.039 0 0 1-.036.01.491.491 0 0 1-.345-.15c-.781-.78-2.936-2.92-2.936-2.92a.738.738 0 0 0-.524-.23.71.71 0 0 0-.671.54 6.369 6.369 0 0 0 8.625 7.52l4.593 4.6a10.341 10.341 0 0 1-5.579 1.63z" fill="#fff" fill-rule="evenodd"></path>
+                </symbol>
+                <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 29" id="after-install-6">
+                  <path d="M20.6 26.54h-3.378v-2.96H14.78v2.96H11.4a1.23 1.23 0 0 0 0 2.46h9.2a1.23 1.23 0 0 0 0-2.46zm-2.32-7.05H0v1.47a.964.964 0 0 0 .963.97h30.074a.964.964 0 0 0 .963-.97v-1.47H18.279zM31.037 0H.963A.971.971 0 0 0 0 .97v16.88h2.252A13.82 13.82 0 0 1 16 4.25a13.559 13.559 0 0 1 7.078 1.98l.807-1.11a.8.8 0 0 1 1.138-.18.828.828 0 0 1 .176 1.15l-.778 1.07a13.906 13.906 0 0 1 5.327 10.69H32V.97a.971.971 0 0 0-.963-.97zm-8.146 16.97a7.048 7.048 0 0 0-2.462-4.31L18 16a3.166 3.166 0 0 1 .9 1.3h4.123a.853.853 0 0 1-.132-.33zM16 11.07a6.965 6.965 0 0 0-5.1 2.22l-.018.03a.662.662 0 0 1-.143.15 7.091 7.091 0 0 0-1.632 3.5.851.851 0 0 1-.133.33H13.1a3.1 3.1 0 0 1 2.9-2.04 2.726 2.726 0 0 1 .5.04l2.556-3.52A6.969 6.969 0 0 0 16 11.07zm12.1 6.23a12.244 12.244 0 0 0-4.637-8.81l-2.075 2.86c.072.05.143.11.213.17a8.71 8.71 0 0 1 2.9 5.18.825.825 0 0 1-.134.6H28.1zm-20.594-.6a8.7 8.7 0 0 1 1.55-3.71l-2.83-2.07c0-.01-.006-.01-.009-.01a12.23 12.23 0 0 0-2.309 6.39H7.64a.821.821 0 0 1-.14-.6zm-.239-7.05l2.876 2.11q.129-.12.264-.24a8.564 8.564 0 0 1 4.783-2.05V5.92a12.06 12.06 0 0 0-7.927 3.73zm9.551-3.73v3.55a8.6 8.6 0 0 1 3.209.97l2.089-2.88a11.989 11.989 0 0 0-5.302-1.64z" fill="#fff" fill-rule="evenodd"></path>
+                </symbol>
+              </svg>
+        </section>
+        <section class="other-canal">
+            <div class="container">
+                <p class="section-text" >Webim – это не только онлайн-консультант. Интегрируйте и другие каналы,  чтобы клиенты могли обращаться к вам любым удобным способом </p>
+                <ul class="other-canal__list">
+                    <li class="other-canal__item other-canal__item--1">
+                        <svg class="other-canal__icon">
+                            <use xlink:href="#other-canal-1"></use>
+                          </svg>
+                        <a class="other-canal__link" href="">Социальные сети</a>  </li>
+                    <li class="other-canal__item other-canal__item--4">
+                        <svg class="other-canal__icon">
+                            <use xlink:href="#other-canal-2"></use>
+                          </svg>
+                        <a class="other-canal__link" href="">Форма обратной связи</a> </li>
+                    <li class="other-canal__item other-canal__item--7">
+                        <svg class="other-canal__icon">
+                            <use xlink:href="#other-canal-3"></use>
+                          </svg>
+                        <a class="other-canal__link" href="">Чат в вашем мобильном приложении</a> </li>
+                    <li class="other-canal__item other-canal__item--2">
+                        <svg class="other-canal__icon">
+                            <use xlink:href="#other-canal-4"></use>
+                          </svg>
+                        <a class="other-canal__link" href="">Мессенджеры</a> </li>
+                    <li class="other-canal__item other-canal__item--5">
+                        <svg class="other-canal__icon">
+                            <use xlink:href="#other-canal-5"></use>
+                          </svg>
+                        <a class="other-canal__link" href="">Яндекс.Диалоги</a> </li>
+                    <li class="other-canal__item other-canal__item--6">
+                        <svg class="other-canal__icon">
+                            <use xlink:href="#other-canal-6"></use>
+                          </svg>
+                        <a class="other-canal__link" href="">Электронная почта</a>  </li>
+                    <li class="other-canal__item other-canal__item--3">
+                        <svg class="other-canal__icon">
+                            <use xlink:href="#other-canal-7"></use>
+                          </svg>
+                        <a class="other-canal__link" href="">Чат-боты</a>  </li>
+                </ul>
+            </div>
+            <svg width="0" height="0" class="hidden">
+                <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="other-canal-1">
+                  <path d="M20 0a20 20 0 1 0 20 20A20 20 0 0 0 20 0zm-2.224 20a3.554 3.554 0 0 1-.209 1.19l5.582 2.68a3.6 3.6 0 1 1-.876 1.82l-5.943-2.85a3.51 3.51 0 1 1 0-5.68l5.942-2.85a3.524 3.524 0 1 1 .876 1.82l-5.582 2.68a3.554 3.554 0 0 1 .209 1.19z" fill="#3b4269" fill-rule="evenodd"></path>
+                </symbol>
+                <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40" id="other-canal-2">
+                  <image width="40" height="40" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAD10lEQVRYhc2ZX2gcRRzHP3eXy7+7pk3bcNbYhmJrFBwJ0aLWLq0WUQuGIhRaEacg4oMPWhCCCL4ohj5VRJ8UcUEptqJYQVQUImMr1VoKU6q2RaHa9ky9xBDTtHdNTua6e+zebjdejNn7viwz+92ZD7+Z2/395hLMUZa21wL3AxuAW4AeoNMZrQQUgJOABoaBr5SQY/XOVhegpe0WQAJPAnfUOVcROAC8oYQcnldAS9vG9wTwEnBdnWBhUsAuJeQP/xnQ0vZq4F1g/TyAeTUDvAo8r4QszgnQ0vaDwF5gyTzDefU9MKCEzNcFaGn7UeAdIP0/wrn6BXhACXn6XwFa2h4APgKSCwDnykDeUxvJAKClbQEcBtoWEM6VWe4N3j3pi5Cl7XZgf0xwRuuAIW9H7RK+APQuLFNAz1ravt3trAJa2l4FPBczHA7THm/D1SDQHBuWX5al7U24gJa2s8DOBoFz9TSeCD4CtMeO5NeApe1OF3BLo1B5ZLbbZhdwc0MgBXVv0tJ2DljeaGSORBOwJspRybNyfWxd2st0ucy+wgneu3A84OvL5Nh1/Z2sSGc5Opln99lDjF255PNkUs0Mdt/NXdluLpQu8nr+CN9O/B41/VqzxF1Rji2da3i86zY6Ui10NrXyVK6fjR09Pk821cxQz32sbllCa7KJ9YtuYLA7mJ09s2Idmzp6Kp6VLR28vGojXenI3+YyA5iNcvRlgvlpf9bfd1PrUjJJf9LTH/ZcTV86keLW9sj4pA3g31GOfDF4+3xN3x+lyaCnFHwuXwzxhYzvlQGMLGTeL5zg5NRota0vjvDx6M8+z9niBG+PHKu2J2dK7Dl3ODDWa/nvGJ++XG1/UPiRn6YKUdOPJSxt3wgEEkWvUokEN7ctp1wuVwacoRzq625eRC6d4dSlUSamw7P49mSa3rZlFK5McebyeNS0RscMoIni+Gx7MSbtTSohTfEya3UVkw66X5JPGhTwCxdwf8wgYTqihDxVAVRCngE+bzDAN6lJWIeu7V1wmcrO9gEqIb8GfmsQwBeVkJUXprcmMe/DlbFiXdUh4C234V3ibTEBefUX8JgSsvolaCRAc6a4Qwn5q7fTLZrM8vbHhnb1pGunEvKz2htNzjXO6E0B25WQB8Juxg1o0qJtSkh9LUMypuU1qc4rZt4oOJwIzhY98z46aA7BnbTMFPgPzRFs0nkB73a+XrMqDNBs2KPAlw7UN0pIb/Wzz4n6VuBh5zA9EzHRn844nwIfKiGjU+gamXzQpMsjHqDhev4ucPJJc45tDp8WO3mlgTBjnlZCmuvcBPwDBMUVaSGUqMoAAAAASUVORK5CYII="></image>
+                </symbol>
+                <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40" id="other-canal-3">
+                  <image width="40" height="40" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAE00lEQVRYhdWZXWhbZRjH/0mTNG3StFnXlH642S2S6hiBBrXY0ZuVdjcb5KrMgRdV9LKo9MJLr6vormSgEwRXRCS6XYyJMuha2cAUsqm0rGKrtZ8mbdKmSfPRynP25ON85OScs07mDwInJ+953v953+d9n+d9YoIBAqGIFcAZAGcB9ADoBuAB4GBrSQDrAGYBzAD4EcBUOOjP6u1Nl8BAKOIFMArgIoBmnX1FAUwAuBwO+ucPVWAgFGkHMA5gGECNTmFS8gC+AjAWDvqXH1tgIBR5i8U1PKYwKdss8oohgYFQxA7gKk/nk4SmfSQc9Kc1CwyEIo0ArgPof8LiCkwCuBAO+uNVBfLI3dIr7mWPE6/7WoXrz+bWcG99x4jIIelImhUaXtUrzmO34qPeLvQ0O4TPx71dwj2d9HPfIkQCeUHo9rnnGu2wmUuTYTWbhHsGuMgaihQFlm0lupmNp5DO7xcfo2u6Z5Bx1iJQPoKGt5JoOof3Z5aK3+ma7hmkoXygzChFiGGjFonFnT3Fa4MMs6biCI4eQoQ4TGpYE0wc+Fe0xFavy453T7fD3+wQLQotZPYP8EtsF+P3/8bDhOKeLIVid5uZs5Kq4ly2GnzSdwIvtjh1iyPomZ6jDlw5cxJHai1aHiFNfWZOmapytr0Rbm2GVaEXHexs0tp8wML5XFVayjbe3P4BQosxxPZyOH/MjfZ6m+Ljq6ksri/GhBcLHj8CC4+8y6rZ3XssnGxWbnHUgde8LTjpKm28Hz5Yxtd/RIXrbxdi+G6wWzbt5HMjk/NYTz3KUecTabzn7xCu6aVOuevxxcMNhP9RDYk+C2fCilCfH7z0rDAt5cxEk8VvG+kslpJ7ONEgjhzLyUxRHDFTJqSt3iZ8TrvrMXDzV+wfVBTYai5L02U4LDUycUSvp7Sf0/Q+46iVtel02NDhKE39K60uWRuyTX2o4DDk9aOn2vB8Ux2i6SzOdbqF2CuF/O3zfi9u/rWJZrsVgx2aF4YICx9wKo6iEqTnnIaVSNvJJW+LIWFM0sKnry6jFtbTWcxtpWR+RC/ha6yDp0532lXOmoWPhooCk7k8tjI5NNmUPeG3rRTeuDOPTF7Zy2llf9rvxQtNdYq/k23qQ4U5M59bFaFRefvuAm6vxLGym5E1oZVZSRx4q/l5Q76NkC2y+c7dBbUVLHRBAn9Qa/Egtouxe4u48eem7Ddy/ONO+QoucMxZiyEFXyVbZPN+bFdVHWmjuZvmwKwaj1dT8qIA+dc3Az5hmg4kI2EyoeIWEs+oTmsB0jRt5nLERLXWt5fjFZNQEuK0ij+VxG3u5XBraUuLwAnSVsgHL/OJvyLb2TzenPodU6sJYQR2snmou88jqA21pWd+WtsWbNDiqEKeNZWOnYFQ5EsAr2p5tQI3BruFkKUGLYjz38/qMUtcCwf9lyA5k4xxOUIzKgu4iJY2ErZZC0QCuZAzpsFAkTuriaptpjS0kSAqKilVFq5pPRtTtKAkwK2QUBCbgt8lqu115dDCELmZUogYAdChpbpAHRsYoUpMct8iZKUPro1c4Af+KwrFI9lpSqk2A64yDWnZHw+BCS4aySpb+F8XMMt5qkvAEqFPZxFdClcj+ujcysdWHx1wJH9DrFE+x+kcZUzTuv+GAPAvEQO3IyqIcZkAAAAASUVORK5CYII="></image>
+                </symbol>
+                <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="other-canal-4">
+                  <path d="M20 0a20 20 0 1 0 20 20A20 20 0 0 0 20 0zm4.022 13.66H12.487a1.481 1.481 0 0 0 0 2.96h11.534l-.148.16a1.505 1.505 0 0 0-.026 2.09 1.41 1.41 0 0 0 2.037.03l2.662-2.66c.016-.02.03-.03.044-.05a1.4 1.4 0 0 0 .351-.61 1.431 1.431 0 0 0 .019-.33l-.037-.01a.754.754 0 0 1 .039-.08 1.465 1.465 0 0 0-.091-.56 1.385 1.385 0 0 0-.257-.43h.02a.118.118 0 0 1-.032-.06h-.029a.046.046 0 0 0-.024-.02l-2.664-2.67a1.41 1.41 0 0 0-2.037.03 1.494 1.494 0 0 0 .025 2.08zm3.539 9.69H16.026l.148-.14a1.5 1.5 0 0 0 .025-2.09 1.417 1.417 0 0 0-2.036-.02l-2.659 2.66a.259.259 0 0 0-.049.05 1.541 1.541 0 0 0-.35.54 1.5 1.5 0 0 0-.105.49v.05a1.221 1.221 0 0 0 .084.37.011.011 0 0 0 .011.01h.005a1.422 1.422 0 0 0 .351.6c.016.02.033.03.05.05l2.659 2.66a1.418 1.418 0 0 0 1.006.42 1.438 1.438 0 0 0 1.031-.44 1.517 1.517 0 0 0-.025-2.1l-.148-.15H27.56a1.481 1.481 0 0 0 0-2.96z" fill="#dab81a" fill-rule="evenodd"></path>
+                </symbol>
+                <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40" id="other-canal-5">
+                  <image x="1.5" width="37" height="40" xlink:href="data:img/png;base64,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"></image>
+                </symbol>
+                <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40" id="other-canal-6">
+                  <image width="40" height="40" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADn0lEQVRYhc2ZXYhVVRTHf/fWjM5txBHH9kQxGmklYuSQgjah1A4FSSoQLYgM+iCCPqiHHeGLD7oFHyKoF18MxSipB/ugaAeTaSl+vIiVNjbmSLhjmmmi0JmxubFu5wxn7ty555zr5D3/l/Ow9177x9r7rr3WujlqlHVqAfAg0AksBOYCswJrI8DvwBngJNAFfGW0H0i7WypA69Q04EngGeCelHsNA/uBt432XVMKaJ2SeU8DW4C2lGCV9A3witH++FUDWqduBfYAK6YALKpR4E3gdaP9cE2A1qk1wHtAyxTDRXUUWGe0v5gK0Dr1OLALaPgf4UL9DKw22ncnArROPQx8COSvAVwogby33JMTAK1Ti4EjQFM1a7lcntmFBeTz8Q4euvIng5fOJ4GU4+6M3snry+AKwL44uEJjKxuWvM+NzYuSbFrSqYv7+PT7lygWR6tNWwpsA16tCAi8AdwRt9nyeS+W4IauDHLiwi5GiyOTzi00tLLklk0salvPj/4Tuvu+iDP/snVqbxiCxgCtU+3Aa3GrRTOnt5e+Z/scB85ui50/f85qZky7iZamuUnM54Pwcx9lPwIDNCaxEGq0+E+iecWE8yLqtE6tGgO0TjUHT1iW9ELUg4/KdckY4Drr1KwQcG2dYSpJrtsDIeD92WIb06q8dUoBrRkBKtdi8eD8bDGN0+0COCdDQOWaLYDN2WIapwYB/CtDQBMkgKkLmWuoAQG8kGHAXwSwJ8PH/EPeaC8JWmx1VScdDNOtj4GVaRlam++kpWle1WxlekMLhcaaI9mXIaBk0TvSrm6bcRfPrThc6+ZxOma0/6n0FhvtpWCITXVjLfbuZPextfQOfDcVgDspS1i3Jl1ZpHJdIdn1r4PHOXL+nUnWJU5cpbJ7dxyg0f4A0JtktaT6lbSs/fnSnbz75icmjErdcq7/66SAm432Q0TLTuvUbcCEwrmycixtf5aF6hGuS1B2Xh4Z5PC5t+jpT9Qz+jYoPYvlgCYo+eqpP4AOo31PyBC9g+vrDCe162NROCJFkxxvR93Q/ut0bTLaf14+EMbBenrvErDRaL+/0mC9AU/L3kb7k5NNyNfpeIeDuNtRDY7Ag3Hek3h0SJrgQRh6ClhTI9jfQQDeHrxesaoEKBf2BOACqING+8uR8Q8Cr0sP8aGgmX5DlY36AjufAR8Z7VOldjnrVD/wWwSoK83fBdYpiQTSx5aO0sygxhEIsdlttJdvbQL+BUUaCPWkRbO9AAAAAElFTkSuQmCC"></image>
+                </symbol>
+                <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40" id="other-canal-7">
+                  <image width="40" height="40" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAEXUlEQVRYhdWZ7U9bVRjAf9y2vHXAJnNMhqXgdGpMOnGaRYzxhQhzc9knzcTYZMasM9nYovhPqHPEL9VEtJqN+cXogoMZMpVJtkTE1RgEw1ZUYCsIjEIZAwrmHE8X+kZ7oQX8Jf1S7j3Pr+fec87zPKSxBOxOtwkoByqAMmAbUACY1Wh+wAt0Ax1AC9Dmcthm9EbTJWh3urcCNcB+IF9nrGGgAahzOWw9SRW0O92FwDvAS4BBp1g4AeALoNblsA0sW9DudB9UcjnLFAtnXEl+uCRBu9OdCdSrx5lKxGM/4HLYphIWtDvdecAZ4MkUywVpBfa6HLaxuIJq5s6toFwQIVkZPpNalAvrV0EOFbM+/MsQQbUgUv3OLcZ+5XCb249YbSVdKVitehGr+/7gFrRwBlOxlSyFHOUikTOoToiu8E3Ykp9FWUluSm1+ujJG/2jEDhNQs9hjVF/UhMutzzaxLsvA5rwMdm5dnxK57zqHyc024r9l4sZkyDFtUE6HNXXwRywMoyGNo5VWWrtH6Oj1JV3uUs8N+TlWZZWxoiAWjElTWUnUgz/dqFFTaaXZPYT7r+RJtl8do+W3fzhaZZUxYiCcyjWVMsUkw6hxbJeVpstD/D4wsWy5y3/6aPp1iDefLyErPW7eUaGpfG5RxEA1VVa+bvdyxTu5ZDnxA7/62StnLgE5QZmmks24iAGPVFlpuDjA1UH9kn9c93P64jU5czmZxgTukGzTVCacENlqJk9fukbfSNTkIyriB51s65czp0NOUKAtSNMTQgQ4/Fwxn//Yz/WxW3FvET/EdUHIlbDBbNITSmCOuYQWYzYwz9R0gI+/72PQNx3zyoHR/+TE9fNLCaSOOr+eG0b9M3zwbS+vP2PhjQoLn/zQx4g/shYS4p9d6OdIZTGvPVVEXbNH3qsTv6aqr4QYn5rlRLOHV8q3UHRHpnxkIvhH5/+mtWuEkYkZhidmON85zKetfRx81iJfidJN2VSXb+G9sx58N2f1KHo1VRrGRcgdP+vh1SeKZMAgG3PSqd1dIk+DMx1eGn8ZxJxu4K3doe/cfZvNVJcXcrzJI8dKkG6jqlt3LXb95HRAyr248y7uKciO+LtBS+PxezfIz2I8ULiOfY8U8O43Ht7eU4o5I+5e2KGpojomN6cDnGjqZd+OAhlguWwvzuWFhzfxfpNHjh2HFiHYporqCKZm5uR7U2W7E5sleWnXjtI8Kh7aKMcWMWIgnNoM7kbn3PY9h+4GHlt4nTjEOwcmePrBfB4tzUuaXBCxyAJz83zZ7sU3ORtNtN7lsDUGt/U64NDCnFDkZ7lZRrkZi/MzVQi5sFwQlbAKp5Ca5CTwcspM9HHK5bBVE1aT1KqCZbUZVy6ECKoqqnYNCIY0laJ1Fk6tYm3c4HLYQl6zaMnCAdWGWGlaVewQIgRVb2TvCksGm0cRSWbUdEt1mSpVayzVNKimUURni/91A3Mha7oFHCa6Npvo4azYvyGAfwHklJ5kT6KyiQAAAABJRU5ErkJggg=="></image>
+                </symbol>
+              </svg>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="container--big">
+
+<div class="page-footer__wrap">
+
+    <div class="page-footer__logo logo__wrapper">
+        <svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 113 27.38">
+            <defs>
+                <style>
+                    .cls-1-f{
+                        fill:hsla(0, 0%, 100%, 0.5);}
+                </style>
+            </defs>
+            
+                <path class="cls-1-f" d="M51.22,11.24a6.78,6.78,0,0,1,7,7,9.1,9.1,0,0,1-.08,1,.7.7,0,0,1-.69.65H46.34a5.39,5.39,0,0,0,5.14,5,7.31,7.31,0,0,0,3.81-1.16c.54-.3.77-.5,1.07-.07l.66.88c.27.35.42.58-.16,1a9.52,9.52,0,0,1-5.64,1.77c-4.65,0-7.54-3.65-7.54-8.07S46.57,11.24,51.22,11.24Zm4.3,6.57a4.44,4.44,0,0,0-4.3-4.23,4.79,4.79,0,0,0-4.85,4.23Z"/>
+                <path class="cls-1-f" d="M62.4.83A.75.75,0,0,1,63.13.1h1.19a.75.75,0,0,1,.73.73V12.24a8.2,8.2,0,0,1,4.11-1c4.61,0,7.38,3.53,7.38,8s-3.08,8.11-7,8.11a6.85,6.85,0,0,1-4.72-2l-.23,1a.7.7,0,0,1-.66.61h-.8a.75.75,0,0,1-.73-.73ZM69.27,25c2.81,0,4.58-2.66,4.58-5.65s-1.69-5.5-5-5.5a8.17,8.17,0,0,0-3.72.93v7.68A5.18,5.18,0,0,0,69.27,25Z"/>
+                <path class="cls-1-f" d="M80.34,2.71a1.83,1.83,0,1,1,1.81,1.8A1.8,1.8,0,0,1,80.34,2.71Zm.54,9.64a.75.75,0,0,1,.73-.73H82.8a.76.76,0,0,1,.73.73V26.26a.75.75,0,0,1-.73.73H81.61a.75.75,0,0,1-.73-.73Z"/>
+                <path class="cls-1-f" d="M89,12.35a.75.75,0,0,1,.73-.73h.73a.57.57,0,0,1,.61.46l.35,1.2a7,7,0,0,1,5-2,5.39,5.39,0,0,1,4.92,2.5,9.33,9.33,0,0,1,5.72-2.5c4.46,0,6,2.92,6,6.91v8.11a.75.75,0,0,1-.73.73H111a.75.75,0,0,1-.73-.73V18.15c0-2.88-1.23-4.34-3.46-4.34A6.88,6.88,0,0,0,102.16,16a12.19,12.19,0,0,1,.2,2.19v8.11a.75.75,0,0,1-.73.73H100.4a.75.75,0,0,1-.73-.73V18.15c0-2.92-1.31-4.34-3.65-4.34A5.93,5.93,0,0,0,91.64,16V26.26a.75.75,0,0,1-.73.73H89.72a.75.75,0,0,1-.73-.73Z"/>
+                <path class="cls-1-f" d="M17.55,5.21c-.26.49-.5,1-.76,1.62s-.42,1.08-.6,1.6L15.69,10c-.32,1-.62,2-.95,2.79a19.91,19.91,0,0,1-1.13,2.48,7.34,7.34,0,0,1-1.35,1.85,2.15,2.15,0,0,1-1.48.63A3,3,0,0,1,9.06,17a10,10,0,0,1-1.55-1.67c-.45-.6-.91-1.28-1.37-2C5.38,12,4.62,10.53,3.88,8.94,2.49,6,1.58,3.38.77,1.21h0A.44.44,0,0,0,.53,1a.32.32,0,0,0-.14,0A.35.35,0,0,0,.11,1a.35.35,0,0,0-.11.3c0,.08.05.16.07.25C.65,3.83,1.44,6.75,2.6,9.94a45.89,45.89,0,0,0,2,4.83A25.47,25.47,0,0,0,6,17.19a12.35,12.35,0,0,0,1.81,2.27,7.48,7.48,0,0,0,1.2.93,4,4,0,0,0,1.47.55,3.35,3.35,0,0,0,1.63-.12A4.53,4.53,0,0,0,13.59,20a10.21,10.21,0,0,0,2.14-2.54,23.08,23.08,0,0,0,1.48-2.92c.39-.92.77-1.93,1.15-3.08l.5-1.42c.17-.46.36-.9.53-1.34.88-2.31,2.07-2.4,3-.83A5.06,5.06,0,0,0,17.55,5.21Z"/>
+                <path class="cls-1-f" d="M41,0a1,1,0,0,0-1,.73L40,1l-.49,2.4c-.15.79-.33,1.63-.52,2.47l-.09.42c-.43,2-.89,4-1.39,5.95s-1.1,4.11-1.7,5.93a27.73,27.73,0,0,1-1.07,2.78,9.13,9.13,0,0,1-.62,1.21c-.23.35-1,1.93-2.1.16-.19-.31-.42-.68-.67-1.16A56.82,56.82,0,0,1,29,15.35L28.44,14c-.52-1.44-1.06-2.92-1.65-4.4l-.18-.45c-.39-.93-.86-2-1.45-3.14a13.34,13.34,0,0,0-.95-1.56,6.45,6.45,0,0,0-1.38-1.49,3.42,3.42,0,0,0-1-.53,2.45,2.45,0,0,0-1.23-.05,3.05,3.05,0,0,0-1.11.5,5,5,0,0,0-.82.76,9,9,0,0,0-1.08,1.61A5.06,5.06,0,0,1,22.4,7.88l.06.09c.05.1.11.2.16.31C23,9,23.4,9.88,23.86,11c.55,1.37,1.07,2.78,1.61,4.26l.68,1.83c.35.93.76,2,1.21,3.14.36.86.84,2,1.45,3.13a17,17,0,0,0,.94,1.56,7.24,7.24,0,0,0,1.35,1.5,3.53,3.53,0,0,0,1,.56,2.49,2.49,0,0,0,1.2.14,2.73,2.73,0,0,0,1.13-.42,3.87,3.87,0,0,0,.85-.71,8.37,8.37,0,0,0,1.14-1.62,16.31,16.31,0,0,0,.78-1.62c.4-1,.76-2,1.14-3.23.67-2.2,1.15-4.36,1.58-6.36.39-1.81.75-3.77,1.16-6.18l.08-.5c.14-.84.27-1.66.4-2.52l.36-2.57L42,1.06V1A1,1,0,0,0,41,0Z"/>
+            
+        </svg>
+        <p class="logo__copyright">Webim 2008-2017 <br>
+        Все права защищены
+        </p>
+    </div>
+    <div class="contacts">
+
+        <div class="contacts__tel">
+            <div class="contacts__item contacts__item--main">      
+                <a class="contacts__tel-link contacts__tel-link--main" href="tel:+78005004932">+7 (800) 500-49-32</a>
+            </div>
+
+            <div class="contacts__item">                    
+                <a class="contacts__tel-link contacts__link" href="tel:+74993223754">+7 (499) 322-37-54</a><br>
+                <p class="contacts__tel-address">Москва, Серебряническая набережная, 29</p>
+            </div>
+            <div class="contacts__item">
+                <a class="contacts__tel-link contacts__link" href="tel:+78123855337">+7 (812) 385-53-37</a><br>
+                <p class="contacts__tel-address">Санкт-Петербург, Чкаловский проспект, 15</p>
+            </div>
+
+        </div>
+        <div class="contacts__mail">
+            <a class="contacts__mail-link  " href="mailto:contact@webim.ru">contact@webim.ru</a><br>
+            <a class="contacts__mail-link  " href="mailto:sales@webim.ru">sales@webim.ru</a><br>
+            <p class="contacts__mail-address">понедельник - пятница с 10.00 - 18.00</p>
+            <ul class="social__list">
+                <li class="social__item"> 
+                    <a class="social__link" href="#">
+                        <span class="visually-hidden">Вконтакте</span>
+                        <svg class="icon-svg icon--vk">
+                            <use xlink:href="#icon_vk"></use>
+                        </svg>
+                    </a>      
+
+                </li>
+                <li class="social__item"> 
+                    <a class="social__link" href="#"> 
+                        <span class="visually-hidden">FaceBook</span>
+                        <svg class="icon-svg icon--fb">
+                            <use xlink:href="#icon_fb"></use>
+                        </svg>
+                    </a> 
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <span class="visually-hidden">Twitter</span>
+                        <svg class="icon-svg icon--twitter">
+                            <use xlink:href="#icon_twitter"></use>
+                        </svg>
+                    </a>
+                    
+
+                </li>
+                <li class="social__item"> 
+                    <a class="social__link" href="#">
+                        <span class="visually-hidden">Skype</span>
+                        <svg class="icon-svg icon--skype">
+                            <use xlink:href="#icon_skype"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <svg width="0" height="0" class="hidden">
+                <symbol viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" id="icon_twitter">
+                  <g clip-rule="evenodd" fill-rule="evenodd">
+                    <!-- <path fill="none" d="M0 0h128v128H0z"></path> -->
+                    <path class="icon " d="M128 23.294a51.28 51.28 0 0 1-15.079 4.237c5.424-3.328 9.587-8.606 11.548-14.892a51.718 51.718 0 0 1-16.687 6.526c-4.778-5.231-11.608-8.498-19.166-8.498-14.493 0-26.251 12.057-26.251 26.927 0 2.111.225 4.16.676 6.133-21.824-1.126-41.17-11.835-54.131-28.145a27.422 27.422 0 0 0-3.554 13.552c0 9.338 4.636 17.581 11.683 22.412-4.297-.131-8.355-1.356-11.901-3.359v.331c0 13.051 9.053 23.937 21.074 26.403-2.201.632-4.523.948-6.92.948-1.69 0-3.343-.162-4.944-.478 3.343 10.694 13.035 18.483 24.53 18.691-8.986 7.227-20.315 11.533-32.614 11.533-2.119 0-4.215-.123-6.266-.37 11.623 7.627 25.432 12.088 40.255 12.088 48.309 0 74.717-41.026 74.717-76.612a89.39 89.39 0 0 0-.068-3.49A53.862 53.862 0 0 0 128 23.294" ></path>
+                  </g>
+                </symbol>
+                <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="icon_fb">
+                  <path class="icon " d="M308.3 508.5c-2.5.1-4.1.3-5.7.3-34.2 0-68.3-.1-102.5.1-4.8 0-6.1-1.3-6.1-6.1.1-79.6.1-159.3.1-238.9V257H139v-85h5.4c15 0 30-.1 45 .1 3.8 0 4.8-1.1 4.8-4.8-.2-22.3-.2-44.7 0-67 .1-15.6 2.6-30.8 9.8-44.9 10.3-19.9 26.6-32.8 47.2-40.8 16.8-6.6 34.5-9 52.3-9.3 29-.4 58-.2 87-.3 2.7 0 4.9-.1 4.9 3.7-.1 27.5-.1 55-.1 82.5 0 .3-.1.6-.5 1.9h-5.5c-18 0-36-.1-54 0-10.4 0-18.8 4.2-24.1 13.3-1.6 2.7-2.6 6.2-2.6 9.4-.3 17 0 34-.2 51 0 4 1.2 5.1 5.1 5.1 25-.2 50-.1 75-.1h7.3c-3.5 28.6-6.9 56.6-10.4 84.9h-77.1v251.8z"></path>
+                </symbol>
+                <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="icon_vk">
+                  <path class="icon " d="M250.895 391.347h28.514s8.615-.952 13.004-5.709c4.059-4.364 3.904-12.563 3.904-12.563s-.563-38.366 17.213-44.022c17.508-5.562 39.994 37.091 63.824 53.506 18.014 12.406 31.707 9.688 31.707 9.688l63.736-.899s33.342-2.062 17.535-28.349c-1.279-2.148-9.215-19.437-47.391-54.968-39.967-37.204-34.604-31.164 13.537-95.492 29.32-39.175 41.045-63.101 37.373-73.329-3.49-9.749-25.049-7.175-25.049-7.175l-71.705.421s-5.311-.721-9.273 1.643c-3.854 2.33-6.328 7.716-6.328 7.716s-11.361 30.321-26.512 56.108c-31.945 54.394-44.736 57.267-49.959 53.884-12.141-7.862-9.094-31.642-9.094-48.508 0-52.726 7.965-74.704-15.539-80.385-7.818-1.885-13.541-3.142-33.492-3.348-25.594-.272-47.277.088-59.531 6.097-8.174 4.009-14.47 12.953-10.622 13.459 4.743.629 15.479 2.9 21.178 10.679 7.369 10.017 7.098 32.569 7.098 32.569s4.232 62.048-9.875 69.77c-9.695 5.292-22.962-5.509-51.448-54.883-14.583-25.267-25.618-53.233-25.618-53.233s-2.117-5.197-5.905-7.98c-4.594-3.381-11.039-4.453-11.039-4.453l-68.175.413s-10.234.305-13.992 4.754c-3.338 3.984-.268 12.176-.268 12.176S72.09 274.148 132.522 337.276c55.443 57.87 118.373 54.071 118.373 54.071zm0 0" ></path>
+                </symbol>
+                <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="icon_skype">
+                  <path class="icon " d="M18 6c2.07 2.04 2.85 4.89 2.36 7.55.41.72.64 1.56.64 2.45a5 5 0 0 1-5 5c-.89 0-1.73-.23-2.45-.64-2.66.49-5.51-.29-7.55-2.36-2.07-2.04-2.85-4.89-2.36-7.55C3.23 9.73 3 8.89 3 8a5 5 0 0 1 5-5c.89 0 1.73.23 2.45.64 2.66-.49 5.51.29 7.55 2.36m-5.96 11.16c2.87 0 4.3-1.38 4.3-3.24 0-1.19-.56-2.46-2.73-2.95l-1.99-.44c-.76-.17-1.62-.4-1.62-1.11 0-.72.6-1.22 1.7-1.22 2.23 0 2.02 1.53 3.13 1.53.58 0 1.08-.34 1.08-.93 0-1.37-2.19-2.4-4.05-2.4-2.01 0-4.16.86-4.16 3.14 0 1.1.39 2.27 2.55 2.81l2.69.68c.81.2 1.01.65 1.01 1.07 0 .68-.68 1.35-1.91 1.35-2.41 0-2.08-1.85-3.37-1.85-.58 0-1 .4-1 .97 0 1.11 1.33 2.59 4.37 2.59z"></path>
+                </symbol>
+              </svg>
+        </div>
+    </div>
+
+
+</div>
+
+        </div>
+    </footer>
+    <div class="sms">
+        <?xml version="1.0" encoding="iso-8859-1"?>
+    <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 612.069 612.069" style="enable-background:new 0 0 612.069 612.069;" xml:space="preserve">
+    <g>
+        <path d="M540.947,57.384H71.053C31.861,57.384,0,89.176,0,128.436v281.95c0,39.192,31.792,71.053,71.053,71.053h49.607
+            l43.646,58.446c2.946,3.7,12.607,14.8,27.407,14.8c6.646,0,16.992-2.946,26.653-15.554l43.646-57.692h279.004
+            c39.192,0,71.053-31.792,71.053-71.053V129.122C611.932,89.929,580.139,57.384,540.947,57.384z M584.593,411.072
+            c0,24.392-20.007,43.646-43.646,43.646H254.543c-4.454,0-8.154,2.193-11.1,5.207l-47.346,63.653
+            c-2.946,3.7-4.454,4.454-4.454,4.454c-0.754,0-3.7-2.193-5.207-4.454l-47.346-63.653c-2.193-3.7-6.646-5.207-11.1-5.207H71.738
+            c-24.392,0-43.646-20.007-43.646-43.646v-281.95c0-24.392,20.007-43.646,43.646-43.646h469.894
+            c24.392,0,43.646,20.007,43.646,43.646v281.95H584.593z M498.74,272.666c0,7.4-5.892,13.292-13.292,13.292H125.045
+            c-7.4,0-13.292-5.892-13.292-13.292c0-7.4,5.893-13.292,13.292-13.292h360.403C492.848,258.62,498.74,264.581,498.74,272.666z
+            M498.74,354.819c0,7.4-5.892,13.292-13.292,13.292H125.045c-7.4,0-13.292-5.893-13.292-13.292s5.893-13.292,13.292-13.292h360.403
+            C492.848,340.773,498.74,346.665,498.74,354.819z M110.999,191.267c0-7.4,5.893-13.292,13.292-13.292h216.79
+            c7.4,0,13.292,5.893,13.292,13.292s-5.893,13.292-13.292,13.292H125.045C117.645,205.382,110.999,198.667,110.999,191.267z"/>
+    </g>
+
+    </svg>
+
+</div>
+<script src="js/main.min.js"></script>
+<script src="js/main.min.js.map"></script>
+</body>
+</html>
